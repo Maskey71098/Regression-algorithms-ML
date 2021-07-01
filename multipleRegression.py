@@ -2,8 +2,7 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
-import panda
-s as pd
+import pandas as pd
 
 #IMPORTING THE DATASET
 
