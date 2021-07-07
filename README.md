@@ -12,6 +12,8 @@ ___
 
 3.[Polynomial Regression](#polynomial)
 
+4.[Support Vector Regression](#SVR)
+
 ___
 
 ## Simple Linear Regression <a name='Simple Linear Regression'></a>
@@ -25,6 +27,8 @@ where,
     y = dependant variable   
     X = independant variable  
     b1 = coefficient for independant variable  
+
+
 
 ### **Steps involved**
 1. Importing the libraries.
@@ -76,3 +80,23 @@ y = b0 + b1*X1 + b2*X2^2 + b3*X3^3 + ..... bn*Xn^n
 > *Note the dataset used for Polynomial Regression is "Position_Salaries.csv"
 
 ___
+
+## Support Vector Regression (SVR)  <a name='Support Vector Regression'></a>
+SVR is a powerful algorithm that allows us to choose how tolerant we are of errors, both through an acceptable error margin(ϵ) and through tuning our tolerance of falling outside that acceptable error rate. Instead of a simple line, it takes a tube of width epsilon(ϵ) which is an intensive tube.
+
+```
+y=1/2 |(|w|)|^2+c∑_(i=1)^M▒〖(ξ+ ξ_i^* )→MIN〗
+```   
+### **Steps involved**
+1. Importing the libraries.
+2. Importing the datasets.
+3. Feature Scaling
+4. Training the SVR models on the whole training set.
+5. Predicting a new result.
+6. Visualizing the SVR results.
+
+> *Note Datasets are not split to leverage maximum data to extract max correlation between position and salary. The dataset used is 'Position_Salaries.csv'. Feature scaling is required before traing as SVR has implicit equation/relationship.   
+
+> *Note for Linear SVR we use Linear Kernel similarly for non linear we use Non Linear Kernel 
+
+
