@@ -6,17 +6,21 @@ ___
 
 ## TABLE OF CONTENTS 
 
-1.[Simple Linear Regression](#simple)  
+1.[Simple Linear Regression](##Simple-Linear-Regression)  
 
-2.[Multiple Linear Regression](#multiple)  
+2.[Multiple Linear Regression](#Multiple-Linear-Regression)  
 
-3.[Polynomial Regression](#polynomial)
+3.[Polynomial Regression](##Polynomial-Regression)
 
-4.[Support Vector Regression](#SVR)
+4.[Support Vector Regression](##Support-Vector-Regression-(SVR))   
+
+5.[Decision Tree Regression](##Decision-Tree-Regression)
+
+6.[Random Forest Regression](##Random-Forest-Regression)
 
 ___
 
-## Simple Linear Regression <a name='Simple Linear Regression'></a>
+## Simple Linear Regression 
 Linear regression is the most widely used statistical technique; it is a way to model a relationship between two sets of variables. The result is a linear regression equation that can be used to make predictions about data.
 
 ```
@@ -61,7 +65,7 @@ y = b0 + b1*X1 + b2*X2 + ...... bn*Xn
 
 ___
 
-## Polynomial regression
+## Polynomial Regression
 Polynomial regression is a form of regression analysis in which the relationship between the independent variable x and the dependent variable y is modelled as an nth degree polynomial in x. It is a special type of multiple linear regression.
 
 ```
@@ -99,4 +103,42 @@ y=1/2 |(|w|)|^2+c∑_(i=1)^M▒〖(ξ+ ξ_i^* )→MIN〗
 
 > *Note for Linear SVR we use Linear Kernel similarly for non linear we use Non Linear Kernel 
 
+___   
+ 
+## Decision Tree Regression <a name='Decision Tree Regression'></a>  
+ Decision tree builds regression model in the form of a tree structure. It breaks down a dataset into smaller and smaller subsets while at the same time an associated decision tree is incrementally developed. The final result is a tree with decision nodes and leaf nodes.
 
+ ### **Steps involved**   
+ 1. Import the libraries.
+ 2. Import the dataset.
+ 3. Train the dataset on the regression model.
+ 4. Predicting the results.
+ 5. Visualizing the results in a high resolution plot(using grids).
+
+ > *Note Feature Scaling is not required for decision tree as they are not sensitive to variance changes.
+
+ > *Note the dataset used for decision tree regression is 'Position_Salaries.csv'
+
+ ### **Observation**
+ The decision tree regression done on 2-D datasets don't produce good prediction as they require more than one independent variables to better predict  the dependant variable.
+___   
+
+## Random Forest Regression <a name='Random Forest Regresion'></a>   
+
+Random Forest Regression is a supervised learning algorithm that uses ensemble learning method for regression. A Random Forest operates by constructing several decision trees during training time and outputting the mean of the classes as the prediction of all the trees.   
+ 
+ >*Note decision tree regression and random forest regression are almost similar to eachother. In random tree regression, it predicts a forest of trees as oposed to decision tree regresssion which predicts only one tree. 
+
+ >Feature scaling is not required
+
+### **Steps involved**  
+ 1. Import the libraries.
+ 2. Import the dataset.
+ 3. Train the dataset on the regression model.
+ 4. Predicting the results.
+ 5. Visualizing the results in a high resolution plot(using grids).
+
+> *Note the dataset used for decision tree regression is 'Position_Salaries.csv'
+
+___
+___
