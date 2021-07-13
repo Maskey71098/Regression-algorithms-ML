@@ -142,7 +142,8 @@ Random Forest Regression is a supervised learning algorithm that uses ensemble l
 
 ___
 
-## **Evalutation of models**   
+## **Evalutation of models**    
+Performance of each regression algortihm was tested by implying it on 'Data.csv' dataset. The values of the evaluation are as follows:
 
 | S.N     | Model    | Evaluation value    |
 | :------------- | :----------: | -----------: |
