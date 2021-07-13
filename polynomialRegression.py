@@ -36,7 +36,7 @@ plt.show()
 
 plt.scatter(X, y, color='red')
 plt.plot(X, lin_reg_2.predict(poly_reg.fit_transform(X)), color='blue')
-plt.title('True or False Salary using Polynomial Regression')
+plt.title('True or False Salary(Polynomial Regression)')
 plt.xlabel('position')
 plt.ylabel('salary')
 plt.show()
@@ -57,5 +57,5 @@ salary = lin_reg.predict([[6.5]])   #[[]] 2d array
 #salary = 330379
 
 #PREDICTION A NEW RESULT USING POLYNOMIAL REGRESSION
-salary_poly = lin_reg_2.predict(poly_reg.fit_transform([[.6.5]]))
+salary_poly = lin_reg_2.predict(poly_reg.fit_transform([[6.5]]))
 #salary =158862

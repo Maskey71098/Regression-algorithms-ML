@@ -16,7 +16,7 @@ ___
 
 5.[Decision Tree Regression](##Decision-Tree-Regression)
 
-6.[Random Forest Regression](##Random-Forest-Regression)
+6.[Random Forest Regression](##Random-Forest-Regression)   
 
 ___
 
@@ -141,4 +141,13 @@ Random Forest Regression is a supervised learning algorithm that uses ensemble l
 > *Note the dataset used for decision tree regression is 'Position_Salaries.csv'
 
 ___
-___
+
+## **Evalutation of models**   
+
+| S.N     | Model    | Evaluation value    |
+| :------------- | :----------: | -----------: |
+|  1. | Multiple Regression  | 0.9325315554761303   |
+|  1. | Polynomial Regression  | 0.9458193300146379   |
+|  1. |SVR  | 0.948078404998626   |
+|  1. | Decision Tree Regression   | 0.922905874177941    |
+| 2.  | Random Forest Regression | 0.948078404998626 |
